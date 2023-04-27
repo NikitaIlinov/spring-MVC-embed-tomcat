@@ -1,0 +1,72 @@
+POST http://localhost:9080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "postman"
+}
+
+###
+
+###
+DELETE http://localhost:9080/api/posts/4
+
+###
+POST http://localhost:9080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "postman"
+}
+
+
+###
+GET http://localhost:9080/api/posts
+
+###
+GET http://localhost:9080/api/posts/3
+
+###
+POST http://localhost:9080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "postman"
+}
+
+###
+
+POST http://localhost:9080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "postman"
+}
+
+###
+
+GET http://localhost:9080/api/posts
+
+###
+GET http://localhost:9080/api/posts/1
+
+###
+POST http://localhost:9080/api/posts
+Content-Type: application/json
+
+{
+  "id": 50,
+  "content": "postman"
+}
+
+
+###
+DELETE http://localhost:9080/api/posts/2
+
+###
+GET http://localhost:9080/api/posts
+
+
